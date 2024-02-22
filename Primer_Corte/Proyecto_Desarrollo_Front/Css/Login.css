@@ -1,0 +1,29 @@
+#usuario {
+    border-radius: 40px;
+    background-color: white;
+    color: #0F3794;
+}
+
+#contraseña {
+    border-radius: 40px;
+    background-color: white;
+    color: #0F3794;
+}
+
+.Contnuar {
+    color: whitesmoke;
+    background-color: #1D3161;
+    padding: 12px;
+    font-size: 16px;
+    text-shadow: 2px 1px 10px;
+    border-radius: 400px;
+}
+
+.Contnuar:hover:not(:active) {
+    background-color: whitesmoke;
+    color: #1D3161;
+    padding: 13px;
+    font-size: 18px;
+    text-shadow: 2px 1px 10px;
+    border-radius: 400px;
+}
