@@ -1,0 +1,32 @@
+main img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.Servicios {
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    place-items: center;
+}
+
+.Servicios a {
+    list-style-type: none;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.Servicios a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 21px;
+    text-shadow: 2px 1px 10px;
+}
+
+.Servicios a:hover:not(:active) {
+    background-color: #B3C9FF;
+}

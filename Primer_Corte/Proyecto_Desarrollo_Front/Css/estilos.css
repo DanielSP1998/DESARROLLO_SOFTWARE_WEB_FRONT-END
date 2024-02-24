@@ -1,119 +1,120 @@
 body {
-    background: whitesmoke;
-    margin: auto;
-    padding: auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #1D3161;
-    text-align: center;
+  background: whitesmoke;
+  margin: auto;
+  padding: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #1D3161;
+  text-align: center;
 }
 
 h1 {
-    color: #0F3794;
-    font-family: 'Times New Roman', Times, serif;
-    text-shadow: 25px 10px 10px;
+  color: #0F3794;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 25px 10px 10px;
 }
 
 h2 {
-    color: #1D3161;
-    font-family: 'Courier New', Courier, monospace;
-    text-shadow: 2px 1px 10px;
+  color: #1D3161;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 2px 1px 10px;
 }
 
 h3 {
-    color: #0F3794;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 21px;
-    text-shadow: 2px 1px 10px;
+  color: #0F3794;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 21px;
+  text-shadow: 2px 1px 10px;
 }
 
 h4 {
-    color: #0F3794;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0F3794;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
-    color: #1D3161;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #1D3161;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 header {
-    background-color: #E5EDFF;
-    padding: 10px;
-    border-radius: 400px;
+  background-color: #E5EDFF;
+  padding: 10px;
+  border-radius: 400px;
 }
 
 header img {
-    width: 150px;
-    border-radius: 40px;
+  width: 150px;
+  border-radius: 40px;
 }
 
 .header {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    place-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  place-items: center;
 }
 
 .header ul {
-    list-style-type: none;
-    overflow: hidden;
+  list-style-type: none;
+  overflow: hidden;
 }
 
 .header a {
-    display: block;
-    color: #1D3161;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    border-radius: 400px;
-    font-size: 21px;
-    text-shadow: 2px 1px 10px;
+  display: block;
+  color: #1D3161;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 400px;
+  font-size: 21px;
+  text-shadow: 2px 1px 10px;
 }
 
 .header a:hover:not(:active) {
-    background-color: #0F3794;
-    color: whitesmoke;
+  background-color: #0F3794;
+  color: whitesmoke;
 }
 
-
 footer {
-    background-color: #E5EDFF;
-    padding: 10px;
-    border-radius: 400px;
+  background-color: #E5EDFF;
+  padding: 10px;
+  border-radius: 400px;
 }
 
 footer img {
-    width: 40px;
-    border-radius: 40px;
+  width: 40px;
+  border-radius: 40px;
 }
 
 .footer1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    place-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  place-items: center;
 }
 
 .footer2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    place-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  place-items: center;
 }
 
 #footer2 {
-    grid-column: 1 / 4;
+  grid-column: 1/4;
 }
 
 .footer2 a {
-    display: block;
-    color: #1D3161;
-    padding: 15px;
-    text-decoration: none;
-    border-radius: 400px;
+  display: block;
+  color: #1D3161;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 400px;
 }
 
 .footer2 a:hover:not(:active) {
-    background-color: #0F3794;
-    color: whitesmoke;
+  background-color: #0F3794;
+  color: whitesmoke;
 }
+
+/*# sourceMappingURL=estilos.css.map */

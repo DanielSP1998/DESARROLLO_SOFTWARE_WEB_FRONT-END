@@ -1,21 +1,23 @@
 .Ingreso-usuario ul {
-    list-style-type: none;
-    margin: 20px;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 20px;
+  overflow: hidden;
 }
 
 .Ingreso-usuario ul li a {
-    display: block;
-    color: #1D3161;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    border-radius: 400px;
-    font-size: 21px;
-    text-shadow: 2px 1px 10px;
+  display: block;
+  color: #1D3161;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 400px;
+  font-size: 21px;
+  text-shadow: 2px 1px 10px;
 }
 
 .Ingreso-usuario ul li a:hover:not(:active) {
-    background-color: #0F3794;
-    color: whitesmoke;
+  background-color: #0F3794;
+  color: whitesmoke;
 }
+
+/*# sourceMappingURL=usuario_logueado.css.map */
